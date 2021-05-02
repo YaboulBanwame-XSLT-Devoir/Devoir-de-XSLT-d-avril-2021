@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Latréaumont</title>
+            <title type="genre">Roman historique</title>
+            <title type="collection">Oeuvres choisies de M. Eugène Sue</title>
+            <author>
+               <forename full="yes">Eugène</forename>
+               <surname full="yes">Sue</surname>
+            </author>
+            <respStmt>
+               <resp>Encodage realisé dans le cadre du devoir final du cours de XML-TEI du Master
+                  TNAH de l'École nationale des Chartes</resp>
+               <persName instant="false" full="yes">
+                  <forename full="yes">Yaboul</forename>
+                  <surname full="yes">Banwame</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Bureaux du "Siècle"</publisher>
+            <date when-iso="1859" instant="false">1859</date>
+            <pubPlace>Paris</pubPlace>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k58105109/f6.item.r">Bibliothèque nationale de France(BnF)</distributor>
+            <availability default="false">
+               <licence>Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Oeuvres choisies de M. Eugène Sue : Latréaumont</title>
+            <biblScope unit="volume" n="1">Volume 1</biblScope>
+            <biblScope unit="section" n="1">Section 1</biblScope>
+            <biblScope unit="chapter" n="I">Chapitre I</biblScope>
+            <biblScope unit="page" from="1" to="3"> pp.1-3</biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note anchored="true"> Le texte faisant l'objet du présent encodage a été imprimé par l'Imprimerie J.
+               Voisvenel</note>
+         </notesStmt>
+         <sourceDesc default="false">
+            <p part="N">Bibliothèque nationale de France, département Littérature et art, Y2-5553</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <index n="index_des_noms_de_personnages">
+            <term xml:id="I_Calvinistes">
+               <persName instant="false" full="yes">Calvinistes</persName>
+            </term>
+            <term xml:id="I_Catholiques">
+               <persName instant="false" full="yes">Catholiques</persName>
+            </term>
+            <term xml:id="I_Docteur">
+               <persName instant="false" full="yes">Docteur</persName>
+            </term>
+            <term xml:id="I_Filles_de_Van_den_Enden">
+               <persName instant="false" full="yes">Filles (de Van den Enden)</persName>
+            </term>
+            <term xml:id="I_Femmes_de_Van_den_Enden">
+               <persName instant="false" full="yes">Femmes (de Van den Enden)</persName>
+            </term>
+            <term xml:id="I_Jésuites">
+               <persName instant="false" full="yes">Jésuites</persName>
+            </term>
+            <term xml:id="I_Jeune_fille_de_haute_noblesse">
+               <persName instant="false" full="yes">Jeune fille de haute noblesse</persName>
+            </term>
+            <term xml:id="I_Juifs">
+               <persName instant="false" full="yes">Juifs</persName>
+            </term>
+            <term xml:id="I_Latréaumont">
+               <persName instant="false" full="yes">LATRÉAUMONT</persName>
+            </term>
+            <term xml:id="I_Luthériens">
+               <persName instant="false" full="yes">Luthériens</persName>
+            </term>
+            <term xml:id="I_Catherine_Medeams">
+               <persName instant="false" full="yes">MEDEAMS, Catherine</persName>
+            </term>
+            <term xml:id="I_Peuples_de_l_Inde">
+               <persName instant="false" full="yes">Peuples de l'Inde</persName>
+            </term>
+            <term xml:id="I_Philosophe">
+               <persName instant="false" full="yes">Philosophe</persName>
+            </term>
+            <term xml:id="I_Savant">
+               <persName instant="false" full="yes">Savant</persName>
+            </term>
+            <term xml:id="I_Baruch_Spinosa">
+               <persName instant="false" full="yes">SPINOSA, Baruch (Disciple)</persName>
+            </term>
+            <term xml:id="I_Tendre_adolescent">
+               <persName instant="false" full="yes">Tendre adolescent</persName>
+            </term>
+            <term xml:id="I_Turcs">
+               <persName instant="false" full="yes">Turcs</persName>
+            </term>
+            <term xml:id="I_Maître_Affinius_van_den_Enden">
+               <persName instant="false" full="yes">VAN DEN ENDEN, Affinius (Maître)</persName>
+            </term>
+            <term xml:id="I_Jean_de_Witt">
+               <persName instant="false" full="yes">WITT (de), Jean</persName>
+            </term>
+         </index>
+         <index n="index_des_noms_de_lieux">
+            <term xml:id="I_Amsterdam">
+               <placeName>Amsterdam(Pays-Bas)</placeName>
+            </term>
+            <term xml:id="I_Anvers">
+               <placeName>Anvers(Belgique)</placeName>
+            </term>
+            <term xml:id="I_Bibliothèque">
+               <placeName>Bibliothèque de Van den Enden</placeName>
+            </term>
+            <term xml:id="I_Brabant">
+               <placeName>Brabant</placeName>
+            </term>
+            <term xml:id="I_Burgwal">
+               <placeName>Burgwal</placeName>
+            </term>
+            <term xml:id="I_Cabinet">
+               <placeName>Cabinet</placeName>
+            </term>
+            <term xml:id="I_Châtenay">
+               <placeName>Châtenay(France)</placeName>
+            </term>
+            <term xml:id="I_Cordoue">
+               <placeName>Cordoue</placeName>
+            </term>
+            <term xml:id="I_Cour_de_Louis_XIV">
+               <placeName>Cour de Louis XIV, Roi de France</placeName>
+            </term>
+            <term xml:id="I_École_de_Philosophie_de_Théologie_et_de_Médecine_de_maître_Affinius_van_den_Enden">
+               <placeName>École de Philosophie, de Théologie et de Médecine de maître Affinius van
+                  den Enden</placeName>
+            </term>
+            <term xml:id="I_Hôtel_des_Muses">
+               <placeName>Hôtel des Muses</placeName>
+            </term>
+            <term xml:id="I_Inde">
+               <placeName>Inde</placeName>
+            </term>
+            <term xml:id="I_La_Haye">
+               <placeName>La Haye</placeName>
+            </term>
+            <term xml:id="I_Muraille">
+               <placeName>Muraille</placeName>
+            </term>
+            <term xml:id="I_République_des_sept_Provinces-Unies">
+               <placeName>République des sept Provinces-Unies</placeName>
+            </term>
+            <term xml:id="I_Synagoge_portugaise">
+               <placeName>Synagogue portugaise</placeName>
+            </term>
+         </index>
+         <div n="1" part="N" org="uniform" sample="complete">
+            <pb n="1"/>
+            <head n="1"
+                  rend="gras_et_soulignement_en_deux_traits-mélange_majuscules_et_minuscules">Publication du journal LE SIECLE</head>
+            <div n="2" part="N" org="uniform" sample="complete">
+               <head n="2" rend="petitesMajuscules_en_gras">OEUVRES CHOISIES DE M. EUGENE SUE</head>
+               <note anchored="true">
+                  <stamp rend="légèrement_à_droite_puis_en_dessous_de_SUE">Cachet comportant entre
+                     autres la numérotation 6963 et l'année 1859 désignant la date de l'édition
+                     encodée.</stamp>
+               </note>
+               <div n="3" part="N" org="uniform" sample="complete">
+                  <head n="3" rend="grandesMajuscules_en_gras">LATRÉAUMONT <note anchored="true">
+                        <stamp>Cachet de la Bibliothèque impériale comportant au centre un élément
+                           décoratif.</stamp>
+                     </note>
+                     <note n="1"
+                           type="gloss_sous_forme_de_notes_préliminaires_faisant_office_de_préface"
+                           place="foot"
+                           anchored="true">
+                        <p n="2">Un géant, spadassin railleur, sorte de bouffon cruel, monstruosité morale
+                           et physique ; un des plus séduisans et des plus grands seigneurs de la
+                              <placeName>cour de Louis XIV</placeName>; un pauvre et austère<persName ref="#Vieillard_hollandais" instant="false" full="yes">vieillard hollandais</persName>,<persName ref="#Philosophe" instant="false" full="yes">philosophe</persName>éminent, grand esprit
+                           politique, savant renommé, qui eut <persName ref="#Spinosa" instant="false" full="yes">SPINOSA</persName> pour disciple, et <persName ref="#Jean_de_Witt" instant="false" full="yes">JEAN DE WITT</persName> pour ami ; une <persName ref="#Jeune_fille_de_haute_noblesse" instant="false" full="yes">jeune fille de haute
+                              noblesse</persName>poussant le dévouement jusqu'à l'héroïsme ; une
+                              <persName ref="#Jeune_femme" instant="false" full="yes">jeune femme</persName>, riche,
+                           merveilleusement belle et chaste, titrée aussi, et poussant aussi jusqu'à
+                           l'héroïsme la foi sacrée du serment ; enfin un gracieux, timide et
+                              <persName ref="#tendre_adolescent" instant="false" full="yes">tendre adolescent</persName>: tels
+                           sont les principaux acteurs du drame qu'on va raconter. </p>
+                        <p n="3">L'auteur de ce livre a obéi à toutes les exigences, à tous les
+                           développemens de cette donnée entièrement historique, avec la plus
+                           scrupuleuse abnégation d'invention.</p>
+                        <p n="4">Mais de ce procédé, ainsi que de la nature même du sujet, devait naître
+                           une grave imperfection dans la combinaison artis- <note place="foot" anchored="true">
+                              OEUV. CHOISIES.-II 6.-1 suivie des mentions marginales
+                                 Y², C
+                               5553(numéro d'inventaire
+                                 dans la série Y²) et 2381
+                           </note>
+                           <cb n="2"/>tique de cet ouvrage, et celui qui écrit ces lignes est le
+                           premier à la signaler entre toutes.</p>
+                        <p n="5">Singulier hasard, ces six personnages de caractères, de natures, d'états
+                           et de pays différens, bien que marchant tous au même but, conduits
+                           pourtant par des intérêts et des passions extrêmement opposés, se
+                           trouvaient presque tous étrangers les uns aux autres ; et trois d'entre
+                           eux se virent pour la première fois lors du dénoûment de cette aventure,
+                           à laquelle ils avaient néanmoins communément concouru. </p>
+                        <p n="6">Or, pour s'abandonner aveuglément aux mille bizarres fantaisies de cette
+                           réalité si variée d'incidens ; pour mettre en relief chacune de ces
+                           physionomies, sérieuses, touchantes, sereines ou féroces (par un
+                           incroyable dédain de l'histoire, absolument inconnues ou méconnues
+                           jusqu'à cette heure) ; pour les montrer enfin bien complètes et
+                           conséquemment avec toutes leurs adhérences ; naïvement entourées, si cela
+                           se peut dire, de leurs accessoires de famille ou de position, il a fallu
+                           consacrer à la peinture curieuse et étudiée de ces figures et de ces
+                           contrastes de toute sorte, une série de tableaux apparemment isolés, mais
+                           liés entre eux par la pensée, ou plutôt l'indomptable volonté de
+                              <persName ref="#Latréaumont" rend="Majuscules" instant="false" full="yes">LATRÉAUMONT</persName>,
+                           dont la force morale domine puissamment l'action, comme sa force physique
+                           en domine les acteurs.</p>
+                        <p n="7">De là, l'extrême abondance, ou plutôt l'abus des perspectives variées à
+                           l'infini, que l'on peut justement reprocher à cette rigoureuse
+                           reproduction de faits réels et accomplis. Et néanmoins, en terminant la
+                           lecture de cette œuvre, peut-être, demeurera-t-on persuadé qu'il était
+                           impossible de la présenter autrement, voulant surtout faire entrevoir les
+                           innombrables voies par lesquelles ces personnages si divers devaient
+                           arriver au même but. 
+                              <persName type="author" ref="#Eugène_Sue" instant="false" full="yes">EUGÈNE SUE</persName>
+                           <date when-iso="30-10-1837" instant="false">
+                              <placeName>Châtenay(France)</placeName>, ce 30 octobre 1837.
+                           </date>
+                        </p>
+                     </note>
+                  </head>
+               </div>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head rend="petitesMajuscules_en_gras">L'HOTEL DES MUSES  I- MAITRE AFFINIUS VAN
+               DEN ENDEN</head>
+            <epigraph xml:lang="ita-fr">
+               <cit>
+                  <quote>
+                     <l xml:lang="ita" part="N">Chi troppo s'assotiglia, si scavezza !</l>
+                     <l xml:lang="fr" part="N">(Par trop subtiliser, on s'égare soi-même.)</l>
+                     <ref>(PÉTRARQUE. — Chant xi, v. 48.)</ref>
+                  </quote>
+               </cit>
+            </epigraph>
+            <p n="8">En<date when="1669" instant="false">1669</date>, on voyait à <placeName>Amsterdam(Pays-Bas)</placeName>une place longue et étroite, bordée de deux allées de
+               tilleuls ; de chaque côté de cette place, appelée le <placeName>Burgwal</placeName>, s'étendait une rangée de bâtimens, peints de
+               diverses couleurs, selon la mode de <cb n="2"/> ce temps-là. Chacune de ces maisons
+               avait son degré de pierre blanche soigneusement entretenu, et sa porte de chêne semée
+               de gros clous de cuivre brillans comme de l'or, grâce à la minutieuse propreté
+               flamande.</p>
+            <pb n="2"/>
+            <note place="top"
+                  type="pagination_et_titre_de_collection"
+                  rend="chiffre_arabe_à_l'extrémité_gauche_et_petitesMajuscules"
+                  anchored="true"> 2 ŒUVRES CHOISIES
+               D'EUGENE SUE. </note>
+            <cb n="3"/>
+            <p n="9"> Vers le milieu et à gauche du <placeName>Burgwal</placeName>, non
+               loin de l'ancienne<placeName>synagogue
+                  portugaise</placeName>, on remarquait une maison beaucoup plus grande que les
+               autres ; mais ce qui la distinguait complètement du reste des habitations de ce
+               quartier, c'était un large et pesant écriteau noir, placé au-dessus de la porte, et
+               sur lequel on lisait cette inscription en lettres d'or : <placeName>Hôtel des Muses</placeName>, <placeName>École de Philosophie, de Théologie et de Médecine de maître Affinius van den
+                     Enden</placeName>
+            </p>
+            <p n="10">Or, vers le <date when-iso="01-1669" instant="false">commencement du mois de janvier 1669</date>, une
+               neige épaisse tombant à gros flocons semblait couvrir d'un blanc linceul les rues et
+               les toits d'<placeName>Amsterdam(Pays-Bas)</placeName>. </p>
+            <p n="11">Il était environ quatre heures du matin, et les vieux tilleuls du
+                  <placeName>Burgwall</placeName> agités par la bise glacée du nord,
+               froissant leurs branches sèches et noircies, troublaient seuls par un bruit monotone
+               le triste silence qui régnait dans cette partie de la ville. </p>
+            <p n="12"> Perçant la ténébreuse obscurité de la nuit, quelques lueurs s'échappaient à travers
+               les vitraux coloriés d'une longue et étroite ogive située au rez-de-chaussée de
+                  l'<placeName>école de maître van den Enden</placeName>; car ce
+               savant, plongé dans les profondeurs de la science, ou emporté par l'irrésistible et
+               entraînante fantaisie de l'imagination, oubliait souvent les heures, et plus d'une
+               fois l'aube naissante fit pâlir la lampe qui éclaira ses veilles. </p>
+            <p n="13"> Cette nuit encore, ayant longuement médité sur un manuscrit placé devant lui, et
+               intitulé  Traité de Théologie politique, ouvrage
+               alors inédit de <persName ref="#Spinosa"
+                         type="author"
+                         rend="Italiques"
+                         instant="false"
+                         full="yes">Spinosa</persName>, son élève de prédilection, <persName ref="#Maître_van_den_Enden" instant="false" full="yes">maître van den Enden</persName> bien que le jour dût
+               bientôt paraître, demeurait absorbé dans ses réflexions ; le regard machinalement
+               fixé sur les cendres du foyer éteint et froid depuis longtemps. </p>
+            <p n="14">Quoique simplement meublé, le <placeName>cabinet</placeName>où se
+               tenait alors le <persName ref="#Docteur" instant="false" full="yes">docteur</persName>avait un sévère et
+               imposant aspect ; tout y invitait au recueillement et à l'étude, soit que cette pièce
+               fût faiblement éclairée par le jour mystérieux des vitraux, soit que la pâle et
+               vacillante clarté d'une lampe y agitât çà et là de grandes ombres. </p>
+            <p n="15">Les murs étaient tendus de grosse serge verte de <placeName>Brabant</placeName> ; d'un côté, on voyait des récipiens ou des alambics sur
+               leurs fourneaux ; ailleurs un lourd creuset, ou le cuivre étincelant de quelques
+               instrumens de physique et d'astronomie, tandis qu'un rideau rouge, à demi fermé,
+               laissait voir les ossemens blanchis d'un squelette d'homme placé au fond d'une niche
+               obscure pratiquée dans <placeName>la muraille</placeName>. </p>
+            <p n="16">Une <placeName>bibliothèque</placeName>de chêne noir, très
+               simple, occupait tout une partie de cette vaste pièce ; en face, on voyait deux
+               tableaux assez grossièrement peints, représentant de gigantesques et horribles
+               animaux fabuleux, tels que les croyances populaires et même quelques esprits éclairés
+               les admettaient alors ; là aussi étaient suspendus divers instrumens de pêche et de
+               chasse appartenant à plusieurs <persName ref="#Peuples_de_l'Inde" instant="false" full="yes">peuples de
+                     l'<placeName>Inde</placeName>
+               </persName>. </p>
+            <p n="17">Puis, pour compléter l'aspect étrange et presque cabalistique de cette silencieuse
+               retraite, au moindre courant d'air, de longs reptiles empaillés se balançaient
+               lentement aux solives saillantes du plafond.</p>
+            <p n="18"> On ne doit point oublier de parler d'un objet moins scientifique peut-être, mais
+               néanmoins d'un rare intérêt, autant par son curieux travail que par la pensée qui s'y
+               rattachait : c'était un échiquier de buis sculpté, offert au <persName ref="#Philosophe" instant="false" full="yes">philosophe</persName>par un de ses admirateurs, le grand
+                  <persName ref="#Pensionnaire_de_Hollande"
+                         rend="Italiques"
+                         instant="false"
+                         full="yes">pensionnaire de
+                  Hollande</persName>, <persName ref="#Jean_de_Witt"
+                         rend="petitesMajuscules"
+                         instant="false"
+                         full="yes">JEAN
+                  DE WITT</persName>, qui lui avait envoyé ce meuble charmant comme gage d'affection
+               ; enfin, au fond du <placeName>cabinet</placeName>, et opposée à la
+               fenêtre, une porte s'ouvrait sur la vaste <placeName>salle de
+                  l'école</placeName>, dans laquelle on descendait par quatre marches, cette
+               dernière pièce étant située sur un plan moins élevé que la première. </p>
+            <p n="19"> Proche de la cheminée à vaste manteau de bois, <persName ref="#Maître van den Enden" instant="false" full="yes">maître van den Enden</persName>, assis dans un grand fauteuil de cuir de
+                  <placeName>Cordoue</placeName>, avait devant lui une longue table,
+               sur laquelle on voyait ouverts ou fermés, mais dans le plus grand désordre, de gros
+               volumes in-folio, latins, grecs ou hébreux, car le <persName ref="#Docteur" instant="false" full="yes"> docteur
+               </persName> possédait parfaitement ces trois langues. </p>
+            <cb n="4"/>
+            <p n="20"> La bise du nord mugissait toujours sourdement, la nuit était encore profonde, et une
+               lampe de cuivre rouge à trois becs, posée sur la table, semblait entourer le
+                  <persName ref="#Le_philosophe" instant="false" full="yes"> philosophe </persName> d'une auréole lumineuse,
+               tandis qu'elle ne jetait sur le reste du <placeName>cabinet</placeName> qu'une lueur vacillante et douteuse. </p>
+            <p n="21"> Cet homme, petit et frêle, était vêtu d'une robe de chambre de camelot noir, et le
+               chaperon de velours de la même couleur qui recouvrait sa tête laissait échapper
+               quelques longues mèches de cheveux argentés ; car <persName ref="#Van_den_Enden" instant="false" full="yes">van
+                  den Enden</persName> avait alors soixante-huit ans environ. </p>
+            <p n="22">Le caractère dominant de sa physionomie grave et sérieuse paraissait être le calme
+               opiniâtre de la résolution, tandis que ses yeux bleus, vifs et animés, qui
+               rayonnaient sous d'épais sourcils blancs, son front haut, vaste et hardi, disaient
+               assez que toute la vie de ce <persName ref="#Vieillard" instant="false" full="yes">vieillard</persName> était
+               concentrée dans le cerveau, et que l'ardente énergie qui couvait sous cette enveloppe
+               chétive n'avait d'autre issue que ce regard étincelant de courage et de sérénité.
+               Mais si, chez ce <persName ref="#Philosophe" instant="false" full="yes">philosophe</persName>, l'angle de la
+               mâchoire inférieure, saillante et vigoureusement accusée, révélait, suivant les
+               physionomistes, une indomptable puissance de volonté ; souvent aussi un mélancolique
+               sourire de résignation et de dédain donnait à ses traits une indicible expression de
+               tristesse, ou trahissait le mépris incurable qu'il avait pour certains hommes et pour
+               certaines choses ; enfin, son teint jaune et plombé, ses joues hâves et tendues sur
+               ses pommettes saillantes, les rides profondes qui sillonnaient en tous sens ce visage
+               osseux et maladif, annonçaient assez la fatale réaction des veilles, des chagrins,
+               des déceptions, des souffrances physiques, et aussi de cette fièvre dévorante du
+               savoir qui mine et tue lentement. </p>
+            <p n="23">C'est qu'en effet, sciences exactes et physiques, philosophie, politique,
+               législation, théologie, arts et poésie...cet homme avait tout embrassé, tout compris
+               ! Abrité sous l'arbre de la science, cet aliment éternel de l'intelligence humaine,
+               il en avait tout expérimenté : l'amertume de ses profondes racines, le parfum de sa
+               floraison embaumée, et la forte saveur de ses fruits. Son existence s'était passée
+               ainsi à satisfaire tour à tour cet irrésistible besoin de savoir et de vérité,
+               toujours insatiable chez les esprits élevés ; de même que, dans la condition
+               matérielle, l'appétit physique, béant sans cesse, ne s'assouvit que pour renaître. </p>
+            <p n="24"> Né à <placeName>Anvers(Belgique)</placeName> en <date when-iso="1601" instant="false">1601</date>, et habitué à <placeName>Amsterdam(Pays-Bas)</placeName>
+               depuis vingt ans, lorsque <persName ref="#Van_den_Enden" instant="false" full="yes">van den Enden</persName>vint
+               s'établir dans cette dernière ville, le plus profond mystère enveloppait sa vie
+               passée. On savait seulement, qu'après avoir longtemps étudié chez les <persName ref="#Jésuites" instant="false" full="yes"> jésuites </persName> de <placeName>La
+                  Haye</placeName>, il y prit les premiers ordres de la prêtrise ; mais qu'un jour
+               il abandonna la carrière ecclésiastique, pour s'unir, malgré les défenses de
+               l'Église, à une <persName ref="#Pauvre_orpheline" instant="false" full="yes">pauvre orpheline</persName>, qui
+               lui donna deux <persName ref="#Filles_ainées_de_Van_den_Enden" instant="false" full="yes">filles</persName> et
+               qui mourut peu de temps après ; s'étant marié de nouveau, <persName ref="#Van_den_Enden" instant="false" full="yes">van den Enden</persName>eut deux autres <persName ref="#Filles_cadettes_de_Van_den_Enden" instant="false" full="yes">filles</persName> de sa seconde femme
+                  <persName ref="#Catherine_Medeams"
+                         rend="Italiques"
+                         instant="false"
+                         full="yes">Catherine Medeams</persName>. </p>
+            <p n="25">Cette sorte de parjure à ses premiers vœux, cette rébellion aux volontés de l'Église,
+               la retraite profonde où vivait <persName ref="Van_den_Enden" instant="false" full="yes">van den
+               Enden</persName>, son aspect grave et triste, ses rares connaissances médicales et
+               anatomiques, sa science des langues, ses succès véritablement prodigieux dans la cure
+               de plusieurs maladies, et surtout la curiosité incessante avec laquelle il s'occupait
+               d'expériences et de travaux chimiques ; enfin, cette vie si mystérieusement occupée
+               de choses occultes, qui eût sans doute fait bannir ou brûler ce <persName ref="#Philosophe" instant="false" full="yes">philosophe</persName> comme sorcier, dans un pays moins libre
+               que ne l'était alors la <placeName>république des sept
+                  Provinces-Unies</placeName>, ne lui valut à <placeName>Amsterdam(Pays-Bas)</placeName> qu'une réputation de rare et grand savoir, dont le
+               retentissement lui attira de nombreux <persName ref="#Élèves" instant="false" full="yes">élèves</persName>. </p>
+            <p n="26">
+               <cit>
+                  <quote rend="Italiques_sauf_disent_ses_contemporains">Ce<persName ref="#Savant" instant="false" full="yes">savant</persName>, disent ses contemporains, enseignait les langues avec
+                     une facilité incroyable, grâce à la pratique d'une méthode qui lui était
+                     particulière</quote>
+               </cit>. De fait, l'affluence des <persName ref="#Écoliers" instant="false" full="yes">écoliers</persName> fut
+               énorme pendant plusieurs années, et le fameux <persName ref="#Baruch_Spinoza"
+                         rend="Italiques"
+                         instant="false"
+                         full="yes">Baruch Spinosa</persName>, plus tard l'élève de prédilection de
+                  <persName ref="#Van_den_Enden" instant="false" full="yes">van den Enden</persName>, vint apprendre chez lui
+               les premiers élémens des langues latine et grecque.</p>
+            <pb n="3"/>
+            <note place="top"
+                  type="titre_d'ouvrage_et_pagination"
+                  rend="petitesMajuscules_au_milieu_et-chiffre_arabe_à_l'extrémité_droite"
+                  anchored="true">LATRÉAUMONT.
+               3</note>
+            <cb n="5"/>
+            <p n="27"> Il est hors de doute que ce fut l'étroite intimité qui régna dès lors entre ce
+                  <persName ref="#Philosophe" instant="false" full="yes">philosophe</persName>et<persName ref="#Spinosa" instant="false" full="yes">Spinosa</persName> (<persName ref="#Spinosa" instant="false" full="yes">Spinosa</persName>, déjà frappé
+               d'anathème et d'excommunication par les <persName ref="#Juifs" instant="false" full="yes">juifs</persName>, qui,
+               de plus, attentèrent deux fois à ses jours pour se venger des doctrines hardies que
+               ce dernier avait professées contre la religion hébraïque) ; il est hors de doute, dis-je, que ce fut cette intimité qui motiva
+                  surtout les reproches d'athéisme adressés à<persName ref="#Van_den_Enden" instant="false" full="yes">van den
+                     Enden</persName> ; car ce <persName ref="#Docteur" instant="false" full="yes">docteur</persName>, disent encore ses contemporains,
+                     enseignait aux <persName ref="#Catholiques" instant="false" full="yes">catholiques</persName> la religion
+                     catholique, aux <persName ref="#Luthériens" instant="false" full="yes">luthériens</persName>le
+                     luthérianisme, aux <persName ref="#Calvinistes" instant="false" full="yes">calvinistes</persName>le
+                     calvinisme, et aux <persName ref="#Turcs" instant="false" full="yes">Turcs</persName>eût professé le Coran
+                     ; mais il demeure apparent qu'il n'était véritablement d'aucune
+                     religion.
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
